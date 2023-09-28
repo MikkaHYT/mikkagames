@@ -1,0 +1,14 @@
+{
+    "configurations": [
+    {
+        "name": "Electron Main",
+        "program": "${workspaceFolder}/my-electron-app/main.js",
+        "request": "launch",
+        "runtimeExecutable": "${workspaceFolder}/my-electron-app/node_modules/.bin/electron",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "node"
+    }
+    ]
+}
