@@ -23,7 +23,7 @@ const createWindow = () => {
     //fullscreen: true
   })
 
-  win.loadURL("https://gamehub.crystalite.repl.co/")
+  win.loadURL("mikkagames.uk.to")
 }
 
 app.whenReady().then(() => {
